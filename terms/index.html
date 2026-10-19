@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <title>이용약관 - 백일백번</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f1e6;
+      --surface: #fcf8ef;
+      --ink: #1b130a;
+      --sub: #6b5d47;
+      --muted: #8e8265;
+      --rule: #d9cdb1;
+      --gold: #b8893d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12100b;
+        --surface: #1a1812;
+        --ink: #f1e9d6;
+        --sub: #b7ab91;
+        --muted: #7e7359;
+        --rule: #3a3327;
+        --gold: #d4a45d;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Noto Serif KR', 'RIDIBatang', serif;
+      font-weight: 400;
+      line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      letter-spacing: -0.6px;
+      margin: 0 0 6px;
+      font-weight: 400;
+    }
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      margin-bottom: 32px;
+    }
+    .rule {
+      height: 0.6px;
+      background: var(--rule);
+      margin: 24px 0;
+    }
+    .rule.section {
+      margin: 72px 0 56px;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: -0.2px;
+      margin: 32px 0 8px;
+      font-weight: 700;
+    }
+    h2 .num {
+      color: var(--gold);
+      font-weight: 400;
+      margin-right: 8px;
+    }
+    p, li {
+      font-size: 15.5px;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .callout {
+      background: var(--surface);
+      border-left: 2px solid var(--gold);
+      padding: 14px 18px;
+      margin: 0 0 8px;
+    }
+    .callout p { margin: 0 0 6px; }
+    .callout p:last-child { margin: 0; }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 12px 0 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      table-layout: fixed;
+    }
+    td a { word-break: break-all; }
+    th, td {
+      border-bottom: 0.6px solid var(--rule);
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 400;
+      letter-spacing: 1px;
+      font-size: 11px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    @media (max-width: 480px) {
+      table { font-size: 13px; }
+      th, td { padding: 8px 6px; }
+    }
+    a {
+      color: var(--gold);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 0.6px solid var(--rule);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.6;
+    }
+    .footer .dot { display: inline; }
+    .footer .mobile-br { display: none; }
+    @media (max-width: 480px) {
+      .footer .dot { display: none; }
+      .footer .mobile-br { display: inline; }
+    }
+  </style>
+</head>
+<body>
+  <main id="top">
+    <div class="eyebrow">Terms of Service</div>
+    <h1>이용약관</h1>
+    <div class="meta">백일백번 (Hundredfold) · com.hasegi.hundredfold<br />최종 개정 2026-10-19 / 시행 2026-10-19 · v1.0<br /><a href="#en">English version below</a></div>
+
+    <p>
+      본 약관은 Hasegi Inc.(이하 "운영자")가 제공하는 모바일 애플리케이션
+      <strong>백일백번</strong>(이하 "서비스")의 이용에 관한 운영자와 이용자 간의 권리·의무 및
+      책임 사항을 규정합니다. 서비스를 설치하고 이용하는 행위는 본 약관에 동의하는 것으로 간주됩니다.
+    </p>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>목적</h2>
+    <p>본 약관은 이용자가 서비스를 안전하고 합리적으로 이용할 수 있도록 필요한 사항을 정함을 목적으로 합니다.</p>
+
+    <h2><span class="num">02</span>용어의 정의</h2>
+    <ul>
+      <li><strong>서비스</strong> - 이용자가 정한 목표 문장을 하루 100번 말하고 100번 쓰며, 미리보기와 감사로 하루를 마무리하는 100일 실천 애플리케이션 "백일백번". 말한 횟수와 쓴 줄 수는 기기 안의 음성 인식·손글씨 인식이 셉니다.</li>
+      <li><strong>이용자</strong> - 본 약관에 따라 서비스를 설치하고 이용하는 모든 사람.</li>
+      <li><strong>목표 문장</strong> - 이용자가 온보딩에서 스스로 정해 100일 동안 말하고 쓰는 한 문장과 그 쓰기용 짧은 판.</li>
+      <li><strong>의식</strong> - 아침(이불 정리, 하이파이브, 말하기, 문장 듣기)과 저녁(쓰기, 미리보기, 감사, 취침 전 읽기, 수면 루프)의 실천 묶음.</li>
+      <li><strong>안개 다리·칸</strong> - 100일 과정을 보여 주는 화면과 그 진행 단위. 칸은 실천을 마친 날에만 하나씩 켜지며, 달력 날짜와 달리 쉬어도 뒤로 가지 않습니다.</li>
+      <li><strong>구간 편지</strong> - 다리의 열두 구간에 들어설 때 한 번씩 제공되는 내레이션.</li>
+      <li><strong>감정 손님</strong> - 두려움·의심·비교·미룸·귀찮음을 그림 캐릭터로 기록하고 「의자에 앉혀」 보내는 기록 도구. 심리 치료나 의료 기능이 아닙니다(§06).</li>
+      <li><strong>증거 수첩</strong> - 작은 성취·우연·신호를 글과 사진으로 남기는 기록.</li>
+      <li><strong>AI 코치</strong> - 이용자가 켠 경우에만 목표 문장 제안, 「더 크게」 제안, 감정 손님에게 건네는 한 줄을 생성형 인공지능(Anthropic Claude)이 만드는 선택 기능. 꺼져 있거나 서버가 제공되지 않을 때는 앱 안의 규칙 템플릿이 같은 자리를 채웁니다.</li>
+      <li><strong>Pro</strong> - 월간·연간 자동 갱신 구독 또는 일회성 평생권으로 제공되는 유료 혜택 묶음(§07).</li>
+      <li><strong>100일 증서</strong> - 100칸을 모두 건넌 이용자에게 서비스가 발급하는 완주 확인서. Hasegi Inc. 자체 발급이며 공인 자격이 아닙니다(§06).</li>
+      <li><strong>백업 파일</strong> - 이용자가 [설정 - 데이터]에서 내보내는 zip 파일. 기록·설정·녹음·사진이 들어 있고 결제 상태는 들어 있지 않습니다.</li>
+    </ul>
+
+    <h2><span class="num">03</span>약관의 효력 및 변경</h2>
+    <p>본 약관은 앱 내 또는 본 페이지에 게시함으로써 효력이 발생합니다. 운영자는 관련 법령을 준수하는 범위 내에서 약관을 개정할 수 있으며, 개정 시 시행일 7일 전(이용자에게 불리한 변경의 경우 30일 전)에 앱 내 또는 본 페이지를 통해 공지합니다. 이용자가 변경된 약관 시행일 이후에도 서비스를 계속 이용하는 경우 변경에 동의한 것으로 간주합니다.</p>
+
+    <h2><span class="num">04</span>서비스의 제공</h2>
+    <ol>
+      <li>목표 문장 작성기(온보딩) - 카테고리별 예시, 규칙 검사, 쓰기용 짧은 판 제안, 말하기 시험.</li>
+      <li>말하기 - 소리(음성 인식이 셈)·조용히(속으로 말하며 리듬 탭)·자동(인식이 안 되면 탭) 세 방식. 세 방식은 모두 정식이며 배지나 불이익이 없습니다. 하루 목표 횟수는 첫 발 구간에서 30·60·100으로 늘어나고, 1000번 모드는 Pro에서 열립니다.</li>
+      <li>쓰기 - 화면 손글씨(기기 안 인식), 종이 모드(공책 사진의 줄 수 세기), 키보드 세 방식. 하루 줄 수는 30~100줄(101~200줄은 Pro)로 설정할 수 있습니다.</li>
+      <li>미리보기 - 장면 그림과 내레이션, 이용자가 녹음한 목소리로 이루어진 3분 세션. 무료는 하루 1회, 보상형 광고로 1회 추가, Pro는 제한 없음.</li>
+      <li>감사(3줄과 미리 감사 1줄), 감정 손님, 증거 수첩, 이불 정리, 하이파이브, 구간 편지, 불편 도전 카드, 중간 성적표, 지불 명세서·도착 카드 공유 이미지.</li>
+      <li>수면 루프 - 이용자의 녹음과 배경 소리를 정한 시간(15·30분 무료, 60분은 보상형 광고, 120·480분은 Pro) 동안 반복 재생한 뒤 스스로 멈추는 기능. 무한 반복은 제공하지 않습니다.</li>
+      <li>통계·히트맵·스트릭, 홈 화면 위젯, 기기 안에서 예약되는 로컬 알림(하루 최대 3건, 선택), 백업 파일 내보내기·복원, 손글씨 페이지 이미지 내보내기(전체 PDF·CSV는 Pro).</li>
+      <li>AI 코치(선택) - 운영자의 AI 서버가 제공되는 동안 이용할 수 있으며, 설치마다 평생 5회가 무료입니다. 보상형 광고로 하루 2회까지 추가할 수 있고, Pro는 한 달에 30회입니다. 서버가 준비 중이거나 중단된 때에는 AI 코치 메뉴가 숨겨지고 규칙 템플릿이 쓰입니다.</li>
+    </ol>
+    <p>서비스는 <strong>만 14세 미만 어린이를 대상으로 하지 않으며</strong>, 온보딩의 출생 연도 확인에서 만 14세 미만으로 확인되면 이용할 수 없습니다(스토어에 표시되는 연령 등급은 각 스토어의 산정을 따릅니다). 만 18세 미만일 수 있는 이용자에게는 맞춤 광고를 표시하지 않습니다.</p>
+    <p>무료 이용의 일부 기능에는 하루 단위 한도가 있으며, 한도에 이르면 「내일 다시」, 「광고 1편 보기」, 「Pro」 세 선택지를 같은 크기로 보여 줍니다. 다리·칸·구간 편지·누적 숫자·히트맵·스트릭·증거 수첩·감사 기록은 한도 없이 무료이며, 기록을 유료로만 볼 수 있게 바꾸지 않습니다.</p>
+
+    <h2><span class="num">05</span>서비스의 변경 및 중단</h2>
+    <ul>
+      <li>운영자는 서비스 개선, 기술적 사정, 운영체제·스토어 정책 변경, 외부 서비스(Cloudflare, Anthropic 등) 사정, AI 모델 단가 변동에 따라 서비스의 일부 또는 전부를 변경하거나 중단할 수 있습니다.</li>
+      <li>AI 코치는 비용 상한이나 외부 사정으로 일시 중단될 수 있으며, 그동안 앱은 규칙 템플릿으로 제안을 만듭니다. 운영자는 사용하는 AI 모델을 사전 통지 없이 동등 이상의 모델로 교체할 수 있습니다.</li>
+      <li>AI 코치 서버가 중단되어도 기기에 저장된 목표·기록·녹음·사진·설정과 그 밖의 모든 기능은 이용자의 기기에서 그대로 동작합니다. 서비스의 핵심 기능은 서버 없이 동작하도록 만들어져 있습니다.</li>
+      <li>서비스를 종료하는 경우 30일 전에 앱 내 또는 본 페이지에 공지하며, 유료 구독의 남은 기간은 관련 법령과 스토어 정책에 따라 처리합니다.</li>
+      <li>무상으로 제공되는 부분의 변경·중단으로 이용자에게 발생한 손해에 대해 운영자는 관련 법령이 허용하는 범위에서 책임을 지지 않습니다.</li>
+    </ul>
+
+    <h2><span class="num">06</span>효과·AI 생성물·의료에 관한 면책</h2>
+    <ul>
+      <li><strong>효과 보장 없음.</strong> 서비스는 목표 문장을 반복해 말하고 쓰고 감사를 기록하는 실천을 돕는 도구입니다. 운영자는 이 실천으로 목표가 이루어진다거나 특정한 소득·성취·관계·건강상의 결과가 생긴다고 보장하지 않으며, 「반드시 이루어진다」와 같은 약속을 하지 않습니다. 결과는 이용자의 상황과 행동에 달려 있습니다.</li>
+      <li><strong>의료·심리 치료가 아닙니다.</strong> 감정 손님, 감사 기록, 수면 루프를 비롯한 모든 기능은 자기 기록과 습관 형성을 위한 것이며 정신건강·수면 장애를 진단·치료·예방하지 않습니다. 지속되는 불편이 있다면 의료 전문가와 상담하시기 바랍니다. 앱이 위기 신호로 보이는 표현을 감지하면 상담 전화 안내를 보여 줄 수 있으나, 이는 응급 서비스를 대신하지 않습니다.</li>
+      <li><strong>AI 생성물.</strong> AI 코치의 제안은 생성형 인공지능이 자동으로 만든 것으로 화면에 「AI」로 표시됩니다. 제안은 어색하거나 사실과 다를 수 있으며 운영자는 그 정확성·적합성을 보증하지 않습니다. 이용자는 제안을 참고하여 스스로 문장을 정합니다. 부적절한 제안은 신고 버튼 또는 <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>으로 알려 주시면 운영자가 확인해 개선합니다.</li>
+      <li>구간 편지와 미리보기의 내레이션은 AI 음성으로 합성한 것이며 실제 인물의 목소리가 아닙니다. 미리보기 장면 그림은 AI 도구로 만든 창작물이며 실제 장소·인물을 나타내지 않습니다.</li>
+      <li>음성 인식과 손글씨 인식은 기기의 성능·환경에 따라 틀릴 수 있습니다. 운영자는 인식 결과의 정확성을 보증하지 않으며, 인식이 어려울 때를 위해 조용히 방식·종이 모드·키보드 방식을 제공합니다.</li>
+      <li><strong>100일 증서</strong>는 「Hasegi Inc. 자체 발급·공인 자격 아님」을 표시해 발급하는 완주 확인서이며, 「자격기본법」상의 국가자격·민간자격이나 공인 인증이 아닙니다.</li>
+      <li>서비스에 언급되는 제3자의 제품명·회사명은 각 소유자의 상표이며, 서비스는 어떤 AI 회사·출판사·저자와도 제휴 관계가 없습니다.</li>
+    </ul>
+
+    <h2><span class="num">07</span>광고, 이용요금 및 결제</h2>
+    <p><strong>광고.</strong> 무료 이용자에게는 Google AdMob 광고(배너, 전면, 앱 오픈, 보상형, 종료 화면의 네이티브)가 표시될 수 있습니다. 광고의 내용·정확성·적법성에 대한 책임은 광고주 및 AdMob에 있으며, 운영자는 광고로 인해 발생한 거래·분쟁에 관여하지 않습니다. 보상형 광고 시청은 언제나 선택이며, 시청하면 그날의 한도가 한 번 늘어날 수 있습니다. 말하기·쓰기·미리보기·수면 루프 화면과 알림으로 들어온 직후에는 광고를 표시하지 않으며, 처음 3일과 복구 의식·도착일에는 전면 광고를 표시하지 않습니다. 유럽경제지역·영국·스위스, 미국 일부 주처럼 관련 규정이 광고 개인정보에 관한 동의나 선택권을 요구하는 지역에서는 광고에 앞서 Google이 제공하는 동의 창 또는 안내 창이 표시될 수 있으며, 앱 [설정 - 정보 - 광고 개인정보 설정](해당 지역에서만 표시)에서 다시 고를 수 있습니다. Pro 이용자에게는 광고와 동의 창이 없습니다.</p>
+    <p><strong>유료 상품.</strong> 모든 결제는 이용자가 쓰는 스토어(Apple App Store 또는 Google Play)의 인앱 결제로 이루어지며, 운영자는 카드 번호 등 결제 수단 정보를 받지 않습니다. 가격은 앱 내 결제 화면에 스토어가 정한 통화와 세금을 포함해 표시되며, 스토어·환율·세율에 따라 달라질 수 있습니다. 실제 청구 금액은 결제 화면에 표시되는 스토어 가격입니다.</p>
+    <ul>
+      <li><strong>Pro 구독(월간·연간)</strong> - 미리보기 무제한과 아침 재생, 장면 전부, 수면 루프 120·480분, 1000번 모드, 쓰기 200줄, 목표 3개, 광고 없음, 기간 그래프·CSV·전체 PDF. 구독은 <strong>자동 갱신</strong>되며, 현재 결제 기간이 끝나기 최소 24시간 전에 해지하지 않으면 같은 기간·가격으로 갱신되고 스토어 계정에 청구됩니다. 해지는 이용자가 스토어 계정의 구독 설정에서 직접 해야 하며, 앱 삭제만으로는 해지되지 않습니다. 해지해도 이미 결제한 기간이 끝날 때까지 혜택이 유지됩니다. 구독은 같은 스토어 계정의 모든 기기에서 쓸 수 있습니다.</li>
+      <li><strong>평생권</strong> - 일회성 비소모성 결제로 Pro 혜택을 영구 제공하며 구독이 아닙니다. 「구매 복원」으로 같은 스토어 계정에서 복원할 수 있습니다.</li>
+      <li><strong>구독이 끝난 뒤</strong> - 무료 이용으로 돌아가며, 다리·칸·기록·녹음·사진·누적 숫자는 그대로 유지됩니다. 101~200줄 설정과 추가 목표 슬롯처럼 Pro에서만 열리는 설정은 무료 범위로 조정될 수 있습니다.</li>
+      <li>앱 안에 코드 입력 같은 인앱 결제 외의 유료 기능 해제 수단은 없습니다. 가격 인상, 가짜 할인, 카운트다운 같은 압박 표시를 하지 않으며, Pro 이용자에게 결제 유도를 다시 표시하지 않습니다.</li>
+    </ul>
+    <p><strong>환불.</strong> 결제·영수증·환불은 각 스토어의 정책과 절차를 따르며, 환불 요청은 스토어를 통해 접수합니다. 운영자는 스토어로부터 결제 수단 정보를 받지 않으므로 직접 환불을 처리할 수 없습니다. 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 디지털 콘텐츠의 제공이 개시된 경우(구독 혜택 이용 개시 등)에는 청약철회가 제한될 수 있으며, 이미 경과한 구독 기간은 환불되지 않습니다. 관련 법령 또는 스토어 정책이 환불을 요구하는 경우에는 그에 따릅니다.</p>
+
+    <h2><span class="num">08</span>이용자의 의무 및 금지행위</h2>
+    <ul>
+      <li>이용자는 서비스를 합법적인 목적으로만 이용해야 하며, 관련 법령과 본 약관, 스토어 및 AI 제공자의 이용 정책을 준수해야 합니다.</li>
+      <li>목표 문장과 AI 코치 요청에 타인의 이름, 전화번호, 주민등록번호, 건강 상태 등 본인 또는 타인의 개인정보를 넣지 않도록 합니다(앱의 규칙 검사는 다른 사람 이름이 없는 문장을 권합니다).</li>
+      <li>다음 행위는 금지됩니다.
+        <ul>
+          <li>일일 한도·AI 코치 횟수를 우회하기 위한 어뷰징 - 개조된 클라이언트 사용, 영수증 위조, 자동화된 수단으로 중계 서버를 호출하는 행위</li>
+          <li>앱·서버의 역공학, 디컴파일, 무단 복제, 재배포, 상업적 이용</li>
+          <li>장면 그림·내레이션·캐릭터·구간 편지 등 콘텐츠를 허락 없이 추출해 다른 서비스에 사용하는 행위</li>
+          <li>AI 코치에게 불법·유해 콘텐츠 생성을 요구하거나 필터를 우회하려는 행위</li>
+          <li>100일 증서를 위조·변조하거나 공인 자격인 것처럼 제시하는 행위</li>
+          <li>타인을 사칭하거나 제3자의 권리(저작권·상표권·인격권 등)를 침해하는 행위</li>
+        </ul>
+      </li>
+      <li>운영자는 위반이 확인되거나 합리적으로 의심되는 경우 사전 통지 없이 AI 코치 등 서버 기능을 제한하거나 차단할 수 있습니다.</li>
+    </ul>
+
+    <h2><span class="num">09</span>지식재산권</h2>
+    <p>서비스의 디자인, 코드, 안개 다리와 여행자·감정 손님 그림, 미리보기 장면, 구간 편지와 내레이션 대본·음성, 효과음·배경음, 증서 양식, 구성에 관한 지식재산권은 Hasegi Inc.에 귀속됩니다. 이용자는 개인적 실천 목적으로만 이를 이용할 수 있습니다. 지불 명세서·도착 카드 같은 공유 이미지는 이용자가 자신의 기록을 알리는 용도로 자유롭게 공유할 수 있습니다.</p>
+    <p>이용자가 입력한 목표 문장, 감사·증거 기록, 직접 녹음한 목소리, 사진, 백업 파일에 대한 권리는 이용자에게 있으며, 운영자는 이를 서버에 보관하지 않습니다(AI 코치 요청의 처리 방식은 <a href="../privacy/">개인정보 처리방침</a> 참조). AI 코치가 만든 문장은 이용자가 자유롭게 사용할 수 있으나 운영자가 독점적 권리를 보증하지는 않으며, 다른 이용자가 비슷한 문장을 받을 수 있습니다.</p>
+    <p>서비스에는 각 라이선스에 따른 오픈소스 구성요소와 글꼴(Hahmlet, Pretendard, Fraunces, Nanum Pen Script - 모두 SIL Open Font License)이 포함됩니다. 목록은 앱 [설정 - 정보]에서 확인할 수 있습니다.</p>
+
+    <h2><span class="num">10</span>책임의 제한</h2>
+    <ul>
+      <li>운영자는 천재지변, 통신 장애, 운영체제·스토어·AI 제공자 등 외부 서비스의 장애나 정책 변경, 이용자 기기의 문제로 서비스를 제공할 수 없는 경우 그에 대한 책임을 지지 않습니다.</li>
+      <li>운영자는 서비스 이용으로 기대한 목표 달성·수익·건강·관계상의 결과, AI 제안을 신뢰해 내린 결정, 음성·손글씨 인식 오차, 이용자가 백업하지 않아 잃은 기기 내 데이터(앱 삭제·기기 변경·초기화 포함)에 대해 관련 법령이 허용하는 범위에서 책임을 지지 않습니다.</li>
+      <li>운영자는 간접 손해, 특별 손해, 결과적 손해, 일실 이익에 대해 책임을 지지 않습니다.</li>
+      <li>유료 이용자에 대한 운영자의 손해배상 책임은 관련 법령이 허용하는 범위에서, 손해가 발생한 날 이전 3개월 동안 이용자가 서비스에 지급한 금액을 한도로 합니다.</li>
+      <li>이상의 제한은 운영자의 고의 또는 중대한 과실로 인한 손해에는 적용되지 않으며, 「소비자기본법」 등 강행 법규에 따른 이용자의 권리를 제한하지 않습니다.</li>
+    </ul>
+
+    <h2><span class="num">11</span>준거법 및 분쟁의 해결</h2>
+    <p>본 약관은 대한민국 법률에 따라 해석되며, 서비스 이용과 관련하여 운영자와 이용자 사이에 분쟁이 발생한 경우 양 당사자는 성실한 협의를 통해 해결을 시도합니다. 협의가 이루어지지 않을 경우 「민사소송법」상의 관할 법원을 합의관할로 합니다. 이용자는 한국소비자원 또는 전자거래분쟁조정위원회에 조정을 신청할 수도 있습니다. 대한민국 밖의 이용자는 거주지의 강행 법규에 따른 권리를 그대로 가집니다.</p>
+
+    <h2><span class="num">12</span>문의</h2>
+    <p>
+      운영자 — Hasegi Inc. · 개발팀<br />
+      이메일 — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a><br />
+      AI 제안 신고, 결제·복원 문의도 같은 주소로 접수합니다. 결제 문의 시 스토어 주문 번호(영수증)를 함께 보내 주십시오. 운영자 서버에는 이용자를 식별하는 기록이 없어 메일 주소만으로는 기기 안의 기록을 찾거나 되돌릴 수 없습니다.
+    </p>
+    <div class="rule section" id="en"></div>
+
+    <div class="eyebrow">Terms of Service</div>
+    <h1>Terms of Service</h1>
+    <div class="meta">Hundredfold (백일백번) · com.hasegi.hundredfold<br />Last revised 2026-10-19 / Effective 2026-10-19 · v1.0<br /><a href="#top">한국어 버전은 위에 있습니다</a></div>
+
+    <p>
+      These Terms govern the rights, obligations and responsibilities between Hasegi Inc. ("we", "the operator") and you regarding the mobile application <strong>Hundredfold</strong> ("the Service"). Installing and using the Service constitutes acceptance of these Terms. The Korean version above is the governing text; this English version has the same substance.
+    </p>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>Purpose</h2>
+    <p>These Terms set out what is needed for you to use the Service safely and reasonably.</p>
+
+    <h2><span class="num">02</span>Definitions</h2>
+    <ul>
+      <li><strong>Service</strong> - the 100-day practice application "Hundredfold", in which you say your own goal sentence 100 times and write it 100 times a day and close the day with a preview and gratitude. The counts of sentences spoken and lines written are made by on-device speech recognition and handwriting recognition.</li>
+      <li><strong>User</strong> - anyone who installs and uses the Service under these Terms.</li>
+      <li><strong>Goal sentence</strong> - the one sentence you set yourself during onboarding and say and write for 100 days, together with its short version for writing.</li>
+      <li><strong>Rituals</strong> - the morning set (bed making, high five, speaking, listening to your sentence) and the evening set (writing, preview, gratitude, bedtime reading, sleep loop).</li>
+      <li><strong>Fog bridge and planks</strong> - the screen that shows the 100-day course and its unit of progress. A plank lights up only on a day you complete the practice; unlike a calendar, a rest day never moves you back.</li>
+      <li><strong>Stage letters</strong> - narration delivered once each time you enter one of the twelve stages of the bridge.</li>
+      <li><strong>Emotion guests</strong> - a journaling tool that records fear, doubt, comparison, procrastination and reluctance as small drawn characters and "seats them on a chair" to send them off. It is not psychotherapy or a medical feature (§06).</li>
+      <li><strong>Evidence notebook</strong> - entries, in text and photos, of small wins, coincidences and signs.</li>
+      <li><strong>AI coach</strong> - an optional feature, used only if you turn it on, in which generative AI (Anthropic Claude) produces goal sentence suggestions, "Bigger" suggestions and one-line replies to emotion guests. When it is off or the server is unavailable, the app's rule templates fill the same place.</li>
+      <li><strong>Pro</strong> - the paid benefits provided as a monthly or yearly auto-renewing subscription or a one-time lifetime purchase (§07).</li>
+      <li><strong>100-day certificate</strong> - a completion certificate the Service issues to users who have crossed all 100 planks. It is self-issued by Hasegi Inc. and is not an accredited credential (§06).</li>
+      <li><strong>Backup file</strong> - the zip file you export from [Settings - Data]. It contains records, settings, recordings and photos, but not purchase status.</li>
+    </ul>
+
+    <h2><span class="num">03</span>Effect and Changes</h2>
+    <p>These Terms take effect when posted in the app or on this page. We may revise them within the limits of applicable law and will announce revisions in the app or on this page at least 7 days before they take effect (30 days for changes unfavorable to users). Continued use of the Service after the effective date constitutes acceptance of the revised Terms.</p>
+
+    <h2><span class="num">04</span>The Service</h2>
+    <ol>
+      <li>Goal sentence builder (onboarding) - examples by category, rule checks, a suggested short version for writing, and a speaking test.</li>
+      <li>Speaking - three methods: Out loud (counted by speech recognition), Quiet (say it in your head and tap to the rhythm) and Auto (switches to tapping when recognition fails). All three are equally valid, with no badges or penalties. The daily target ramps 30, 60 and 100 in the first stage; the 1000 mode opens with Pro.</li>
+      <li>Writing - three methods: on-screen handwriting (on-device recognition), paper mode (counting lines in a photo of your notebook) and keyboard. Lines per day can be set from 30 to 100 (101 to 200 with Pro).</li>
+      <li>Preview - a 3-minute session of a scene image, narration and your own recorded voice. Free: once a day, one more with a rewarded ad; Pro: unlimited.</li>
+      <li>Gratitude (three lines and one advance-gratitude line), emotion guests, evidence notebook, bed making, high five, stage letters, discomfort challenge cards, the mid-course report, and shareable images such as the payment statement and arrival card.</li>
+      <li>Sleep loop - plays your recording and ambient sound on repeat for a set time (15 and 30 minutes free, 60 minutes with a rewarded ad, 120 and 480 minutes with Pro) and then stops by itself. There is no infinite loop.</li>
+      <li>Statistics, heatmap and streaks, a home screen widget, local reminders scheduled on the device (at most three a day, optional), backup export and restore, and export of handwriting page images (full PDF and CSV with Pro).</li>
+      <li>AI coach (optional) - available while our AI server is provided, with five free uses per installation for life. Rewarded ads add up to two uses a day, and Pro provides 30 uses a month. While the server is being prepared or is down, the AI coach menu is hidden and rule templates are used.</li>
+    </ol>
+    <p>The Service <strong>is not directed to children under 14</strong>, and anyone found to be under 14 in the onboarding birth-year check cannot use it (the age rating shown in each store follows that store's own assessment). Users who may be under 18 are not shown personalized ads.</p>
+    <p>Some free features have daily limits. When a limit is reached, the app shows three choices of equal size: "Tomorrow", "Watch one ad" and "Pro". The bridge, planks, stage letters, totals, heatmap, streaks, evidence notebook and gratitude entries are free without limits, and we do not make your records visible only through payment.</p>
+
+    <h2><span class="num">05</span>Changes and Suspension</h2>
+    <ul>
+      <li>We may change or suspend part or all of the Service for improvements, technical reasons, changes in operating system or store policies, circumstances of external services (Cloudflare, Anthropic and others) or changes in AI model pricing.</li>
+      <li>The AI coach may be suspended temporarily because of a cost cap or external circumstances; meanwhile the app produces suggestions from rule templates. We may replace the AI model with an equivalent or better model without prior notice.</li>
+      <li>Even if the AI coach server is down, the goals, records, recordings, photos and settings stored on your device and every other feature keep working on your device. The core of the Service is built to work without a server.</li>
+      <li>If the Service is discontinued, we will give 30 days' notice in the app or on this page, and the remaining period of any paid subscription will be handled under applicable law and store policy.</li>
+      <li>To the extent permitted by law, we are not liable for damage arising from changes to or suspension of parts of the Service provided free of charge.</li>
+    </ul>
+
+    <h2><span class="num">06</span>Disclaimer on Results, AI Output and Medical Matters</h2>
+    <ul>
+      <li><strong>No guarantee of results.</strong> The Service is a tool that supports the practice of repeatedly saying and writing a goal sentence and recording gratitude. We do not guarantee that this practice will achieve your goal or produce any particular income, achievement, relationship or health outcome, and we make no promise such as "it will surely come true". Outcomes depend on your circumstances and actions.</li>
+      <li><strong>Not medical care or psychotherapy.</strong> Emotion guests, gratitude entries, the sleep loop and every other feature exist for self-reflection and habit building; they do not diagnose, treat or prevent mental health or sleep disorders. If you have persistent difficulties, please consult a healthcare professional. If the app detects wording that looks like a crisis signal it may show helpline information, which does not replace emergency services.</li>
+      <li><strong>AI output.</strong> AI coach suggestions are generated automatically by generative AI and labeled "AI" on screen. They may be awkward or inaccurate, and we do not warrant their accuracy or suitability. You decide your own sentence, using suggestions only as reference. Report an inappropriate suggestion with the Report button or at <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>, and we will review and improve.</li>
+      <li>The narration in stage letters and previews is AI-synthesized speech, not the voice of a real person. Preview scene images are artwork created with AI tools and do not depict real places or people.</li>
+      <li>Speech recognition and handwriting recognition can be wrong depending on your device and surroundings. We do not warrant recognition accuracy, and we provide the Quiet method, paper mode and keyboard method for when recognition is difficult.</li>
+      <li>The <strong>100-day certificate</strong> is a completion certificate issued with the note "self-issued by Hasegi Inc., not an accredited credential"; it is not a national or private qualification or an accredited certification under the Framework Act on Qualifications of Korea or any similar law.</li>
+      <li>Third-party product and company names mentioned in the Service are trademarks of their owners. The Service is not affiliated with any AI company, publisher or author.</li>
+    </ul>
+
+    <h2><span class="num">07</span>Advertising, Fees and Payment</h2>
+    <p><strong>Advertising.</strong> Free users may see Google AdMob ads (banner, interstitial, app open, rewarded, and a native ad in the exit dialog). Advertisers and AdMob are responsible for the content, accuracy and legality of ads; we are not involved in any transaction or dispute arising from an ad. Watching a rewarded ad is always optional and may extend a daily limit once. No ads are shown on the speaking, writing, preview and sleep loop screens or right after opening the app from a reminder, and no interstitial ads are shown during the first three days, on recovery rituals or on the arrival day. In regions where regulations require consent or choice regarding ad privacy, such as the EEA, the UK, Switzerland and some US states, a consent form or notice provided by Google may be shown before ads, and you can change your choice in [Settings - About - Ad privacy choices] (shown only in those regions). Pro users see neither ads nor consent forms.</p>
+    <p><strong>Paid products.</strong> All payments are made through the in-app purchase system of the store you use (Apple App Store or Google Play); we never receive payment method details such as card numbers. Prices are shown on the in-app purchase screen in the store's currency, including tax, and may vary by store, exchange rate and tax rate. The amount actually charged is the store price shown on the purchase screen.</p>
+    <ul>
+      <li><strong>Pro subscription (monthly, yearly)</strong> - unlimited previews and morning playback, every scene, the 120- and 480-minute sleep loop, the 1000 mode, 200 writing lines, three goals, no ads, and period charts, CSV and full PDF export. Subscriptions <strong>renew automatically</strong>; unless cancelled at least 24 hours before the end of the current period, they renew for the same period at the same price and are charged to your store account. You must cancel in your store account's subscription settings; deleting the app does not cancel a subscription. After cancellation, benefits continue until the end of the period already paid for. A subscription works on all devices signed in to the same store account.</li>
+      <li><strong>Lifetime</strong> - a one-time non-consumable purchase that provides Pro benefits permanently; it is not a subscription. It can be restored on the same store account with "Restore purchases".</li>
+      <li><strong>After a subscription ends</strong> - you return to free use, and your bridge, planks, records, recordings, photos and totals are kept. Settings that open only with Pro, such as 101 to 200 lines and extra goal slots, may be adjusted back to the free range.</li>
+      <li>There is no way to unlock paid features other than in-app purchase, such as entering a code. We do not use pressure tactics such as price hikes, fake discounts or countdowns, and we do not show purchase prompts again to Pro users.</li>
+    </ul>
+    <p><strong>Refunds.</strong> Payments, receipts and refunds follow each store's policies and procedures, and refund requests are submitted through the store. Because we do not receive payment method details from the store, we cannot process refunds directly. Under Korea's Act on the Consumer Protection in Electronic Commerce, the right of withdrawal may be limited once provision of digital content has begun (such as the start of subscription benefits), and subscription periods already elapsed are not refunded. Where applicable law or store policy requires a refund, we follow it.</p>
+
+    <h2><span class="num">08</span>User Obligations and Prohibited Conduct</h2>
+    <ul>
+      <li>You must use the Service only for lawful purposes and comply with applicable law, these Terms, and the usage policies of the stores and AI providers.</li>
+      <li>Do not put personal information of yourself or others, such as names, phone numbers, national ID numbers or health conditions, into your goal sentence or AI coach requests (the app's rule check recommends sentences without other people's names).</li>
+      <li>The following are prohibited:
+        <ul>
+          <li>abuse to bypass daily limits or AI coach allowances - modified clients, forged receipts, calling the relay server by automated means</li>
+          <li>reverse engineering, decompiling, unauthorized copying, redistribution or commercial use of the app or server</li>
+          <li>extracting content such as scene images, narration, characters or stage letters without permission and using it in other services</li>
+          <li>asking the AI coach to produce illegal or harmful content or attempting to bypass its filters</li>
+          <li>forging or altering the 100-day certificate or presenting it as an accredited credential</li>
+          <li>impersonating others or infringing third-party rights (copyright, trademark, personality rights and so on)</li>
+        </ul>
+      </li>
+      <li>If a violation is confirmed or reasonably suspected, we may restrict or block server features such as the AI coach without prior notice.</li>
+    </ul>
+
+    <h2><span class="num">09</span>Intellectual Property</h2>
+    <p>Intellectual property in the Service's design, code, the fog bridge and the traveler and emotion guest artwork, preview scenes, stage letter and narration scripts and audio, sound effects and ambient music, the certificate template and the overall arrangement belongs to Hasegi Inc. You may use them only for your own personal practice. Shareable images such as the payment statement and arrival card may be shared freely to show your own record.</p>
+    <p>You own your goal sentence, gratitude and evidence entries, your own voice recordings, photos and backup files; we do not keep them on our servers (see the <a href="../privacy/#en">Privacy Policy</a> for how AI coach requests are handled). You may use sentences produced by the AI coach freely, but we do not warrant exclusive rights in them, and other users may receive similar sentences.</p>
+    <p>The Service includes open-source components and fonts (Hahmlet, Pretendard, Fraunces and Nanum Pen Script, all under the SIL Open Font License) under their respective licenses. The list is available in [Settings - About] in the app.</p>
+
+    <h2><span class="num">10</span>Limitation of Liability</h2>
+    <ul>
+      <li>We are not liable where the Service cannot be provided because of force majeure, network failures, outages or policy changes of external services such as operating systems, stores or AI providers, or problems with your device.</li>
+      <li>To the extent permitted by law, we are not liable for goal, income, health or relationship outcomes you expected from using the Service, decisions made in reliance on AI suggestions, errors in speech or handwriting recognition, or on-device data lost because you did not back it up (including after uninstalling, changing or resetting a device).</li>
+      <li>We are not liable for indirect, special or consequential damages or lost profits.</li>
+      <li>To the extent permitted by law, our liability to paying users is limited to the amount you paid for the Service in the three months before the damage occurred.</li>
+      <li>These limitations do not apply to damage caused by our willful misconduct or gross negligence and do not limit rights you have under mandatory law, including consumer protection law.</li>
+    </ul>
+
+    <h2><span class="num">11</span>Governing Law and Dispute Resolution</h2>
+    <p>These Terms are governed by the laws of the Republic of Korea. If a dispute arises between you and us in connection with the Service, both parties will first try to resolve it in good faith. Failing that, the court with jurisdiction under the Korean Civil Procedure Act is the agreed venue. You may also apply for mediation to the Korea Consumer Agency or the Electronic Commerce Dispute Mediation Committee. Users outside Korea keep any rights granted by the mandatory laws of their place of residence.</p>
+
+    <h2><span class="num">12</span>Contact</h2>
+    <p>
+      Operator — Hasegi Inc. · Development<br />
+      Email — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a><br />
+      Reports about AI suggestions and purchase or restore questions go to the same address. For purchase questions, please include the store order number (receipt). Our servers hold no records that identify you, so we cannot find or recover on-device records from an email address alone.
+    </p>
+
+    <div class="footer">
+      (c) 2026 Hasegi Inc.<span class="dot"> / </span><br class="mobile-br" />백일백번 (Hundredfold)
+    </div>
+  </main>
+</body>
+</html>

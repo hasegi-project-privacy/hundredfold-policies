@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <title>고객 지원 - 백일백번</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f1e6;
+      --surface: #fcf8ef;
+      --ink: #1b130a;
+      --sub: #6b5d47;
+      --muted: #8e8265;
+      --rule: #d9cdb1;
+      --gold: #b8893d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12100b;
+        --surface: #1a1812;
+        --ink: #f1e9d6;
+        --sub: #b7ab91;
+        --muted: #7e7359;
+        --rule: #3a3327;
+        --gold: #d4a45d;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Noto Serif KR', 'RIDIBatang', serif;
+      font-weight: 400;
+      line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      letter-spacing: -0.6px;
+      margin: 0 0 6px;
+      font-weight: 400;
+    }
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      margin-bottom: 32px;
+    }
+    .rule {
+      height: 0.6px;
+      background: var(--rule);
+      margin: 24px 0;
+    }
+    .rule.section {
+      margin: 72px 0 56px;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: -0.2px;
+      margin: 32px 0 8px;
+      font-weight: 700;
+    }
+    h2 .num {
+      color: var(--gold);
+      font-weight: 400;
+      margin-right: 8px;
+    }
+    p, li {
+      font-size: 15.5px;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .callout {
+      background: var(--surface);
+      border-left: 2px solid var(--gold);
+      padding: 14px 18px;
+      margin: 0 0 8px;
+    }
+    .callout p { margin: 0 0 6px; }
+    .callout p:last-child { margin: 0; }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 12px 0 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      table-layout: fixed;
+    }
+    td a { word-break: break-all; }
+    th, td {
+      border-bottom: 0.6px solid var(--rule);
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 400;
+      letter-spacing: 1px;
+      font-size: 11px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    @media (max-width: 480px) {
+      table { font-size: 13px; }
+      th, td { padding: 8px 6px; }
+    }
+    a {
+      color: var(--gold);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 0.6px solid var(--rule);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.6;
+    }
+    .footer .dot { display: inline; }
+    .footer .mobile-br { display: none; }
+    @media (max-width: 480px) {
+      .footer .dot { display: none; }
+      .footer .mobile-br { display: inline; }
+    }
+  </style>
+</head>
+<body>
+  <main id="top">
+    <div class="eyebrow">Support</div>
+    <h1>고객 지원</h1>
+    <div class="meta">백일백번 (Hundredfold) · com.hasegi.hundredfold<br />갱신 2026-10-19<br /><a href="#en">English version below</a></div>
+
+    <p>백일백번은 목표 문장을 하루 100번 말하고 100번 쓰며 안개 다리를 100일에 건너는 실천 앱입니다. 자주 묻는 질문을 먼저 확인하시고, 해결되지 않으면 아래 메일로 문의해 주세요. 보통 영업일 기준 2일 안에 답합니다.</p>
+
+    <div class="callout">
+      <p><strong>문의</strong> — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a></p>
+      <p>문의 메일에는 기기 종류(예: iPhone 15, Galaxy S24), 앱 버전([설정 - 정보 - 앱 버전]), 문제가 생긴 화면과 시각을 적어 주시면 빨리 찾을 수 있습니다. 녹음·사진·기록은 운영자에게 전송되지 않으므로 메일에 붙이지 않으셔도 됩니다.</p>
+    </div>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>말하기 횟수가 세어지지 않아요</h2>
+    <ul>
+      <li>「소리」 방식은 마이크와 음성 인식 권한이 필요합니다. 기기 설정에서 백일백번의 마이크·음성 인식 권한을 확인해 주세요.</li>
+      <li>조용한 곳에서 문장을 또렷하게 끊어 말하면 더 잘 들립니다. 문장이 길면 온보딩에서 제안한 쓰기용 짧은 판으로 바꿔 보세요.</li>
+      <li>기기에 한국어·영어 기기 내 인식이 없으면 [설정 - 말하기 - 온라인 인식 허용]을 켜거나, 「조용히」 방식(속으로 말하며 리듬 탭)으로 바꿀 수 있습니다. 어느 방식이든 똑같이 셉니다.</li>
+    </ul>
+
+    <h2><span class="num">02</span>손글씨가 인식되지 않아요</h2>
+    <ul>
+      <li>손글씨 인식 모델(약 20MB)은 처음 쓸 때 통신망으로 내려받습니다. Wi-Fi 에서 한 번 쓰기 화면을 열어 주세요.</li>
+      <li>한 줄을 1~3개의 띠로 나눠 써도 됩니다. 글자를 너무 작게 쓰면 인식이 어렵습니다.</li>
+      <li>인식이 계속 어려우면 종이 모드(공책 사진의 줄 수 세기)나 키보드 방식으로 바꿀 수 있습니다.</li>
+    </ul>
+
+    <h2><span class="num">03</span>구독·결제</h2>
+    <ul>
+      <li>Pro 구독은 해지하지 않으면 자동 갱신됩니다. 해지와 영수증 확인은 쓰고 계신 스토어 계정의 구독 설정에서 하며, 앱을 지워도 해지되지 않습니다.</li>
+      <li>다른 기기에서 산 Pro 는 [설정 - Pro - 구매 복원]으로 되찾습니다(같은 스토어 계정).</li>
+      <li>환불은 스토어 정책과 절차를 따릅니다. 운영자는 결제 수단 정보를 받지 않아 직접 환불할 수 없습니다. 문의하실 때는 스토어 주문 번호를 함께 보내 주세요.</li>
+    </ul>
+
+    <h2><span class="num">04</span>백업·복원·기기 변경</h2>
+    <ul>
+      <li>[설정 - 데이터 - 백업 내보내기]로 기록·설정·녹음·사진을 zip 파일 하나로 내보내 원하는 곳(파일 앱, 클라우드 드라이브 등)에 둘 수 있습니다.</li>
+      <li>새 기기에서는 그 파일을 앱 문서 폴더에 넣고 [설정 - 데이터 - 백업 복원]을 누릅니다. 복원은 지금 기록을 전부 바꾸므로 되돌릴 수 없습니다.</li>
+      <li>운영자는 기록의 사본을 갖고 있지 않습니다. 앱을 지우면 기기의 기록은 사라지니 먼저 백업해 주세요. Pro 는 백업 파일이 아니라 스토어 복원으로 되찾습니다.</li>
+    </ul>
+
+    <h2><span class="num">05</span>알림이 오지 않아요</h2>
+    <ul>
+      <li>알림은 기기 안에서 예약되는 로컬 알림입니다. 기기 설정에서 백일백번의 알림이 허용되어 있는지, 앱 [설정 - 알림]이 켜져 있는지 확인해 주세요.</li>
+      <li>일부 Android 기기는 배터리 절약 설정이 예약 알림을 늦추거나 막습니다. 백일백번을 배터리 최적화 예외로 두면 나아집니다.</li>
+    </ul>
+
+    <h2><span class="num">06</span>내 정보는 어디에 있나요</h2>
+    <p>목표 문장, 기록, 녹음, 손글씨, 사진은 기기에만 저장되고 운영자에게 전송되지 않습니다. 선택 기능인 AI 코치를 켜면 목표 문장과 카테고리만 전송됩니다. 자세한 내용은 <a href="../privacy/">개인정보 처리방침</a>과 <a href="../terms/">이용약관</a>을 보세요. 기록 삭제는 앱 안에서 직접 하거나 앱을 삭제하면 됩니다.</p>
+
+    <div class="rule section" id="en"></div>
+
+    <div class="eyebrow">Support</div>
+    <h1>Support</h1>
+    <div class="meta">Hundredfold (백일백번) · com.hasegi.hundredfold<br />Updated 2026-10-19<br /><a href="#top">한국어 버전은 위에 있습니다</a></div>
+
+    <p>Hundredfold is a practice app in which you say your goal sentence 100 times and write it 100 times a day and cross the fog bridge in 100 days. Please check the questions below first; if that does not solve it, email us. We usually reply within two business days.</p>
+
+    <div class="callout">
+      <p><strong>Contact</strong> — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a></p>
+      <p>Please include your device (for example iPhone 15 or Galaxy S24), the app version ([Settings - About - App version]), and the screen and time when the problem happened. Recordings, photos and records are never sent to us, so you do not need to attach them.</p>
+    </div>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>My spoken repetitions are not counted</h2>
+    <ul>
+      <li>The Out loud method needs microphone and speech recognition permission. Check Hundredfold's permissions in your device settings.</li>
+      <li>Speak clearly in a quiet place, pausing between repetitions. If the sentence is long, switch to the short version suggested during onboarding.</li>
+      <li>If your device has no on-device recognition for your language, turn on [Settings - Speaking - Allow online recognition] or switch to the Quiet method (say it in your head and tap to the rhythm). Every method counts the same.</li>
+    </ul>
+
+    <h2><span class="num">02</span>My handwriting is not recognized</h2>
+    <ul>
+      <li>The handwriting model (about 20 MB) is downloaded the first time you write. Open the writing screen once on Wi-Fi.</li>
+      <li>You may split one line into one to three strips. Very small letters are hard to recognize.</li>
+      <li>If recognition keeps failing, switch to paper mode (counting lines in a photo of your notebook) or the keyboard method.</li>
+    </ul>
+
+    <h2><span class="num">03</span>Subscriptions and payments</h2>
+    <ul>
+      <li>A Pro subscription renews automatically unless cancelled. Cancel and view receipts in the subscription settings of the store account you use; deleting the app does not cancel it.</li>
+      <li>Get back Pro bought on another device with [Settings - Pro - Restore purchases] (same store account).</li>
+      <li>Refunds follow the store's policy and procedure. We never receive payment details, so we cannot refund directly. Please include the store order number when you write to us.</li>
+    </ul>
+
+    <h2><span class="num">04</span>Backup, restore and changing devices</h2>
+    <ul>
+      <li>[Settings - Data - Export backup] exports your records, settings, recordings and photos as one zip file that you can keep wherever you like (Files, a cloud drive, and so on).</li>
+      <li>On a new device, put that file in the app's documents folder and tap [Settings - Data - Restore backup]. Restoring replaces everything on the device and cannot be undone.</li>
+      <li>We hold no copy of your records. Uninstalling deletes them from the device, so back up first. Pro is restored through the store, not from the backup file.</li>
+    </ul>
+
+    <h2><span class="num">05</span>Reminders do not arrive</h2>
+    <ul>
+      <li>Reminders are local notifications scheduled on the device. Check that notifications for Hundredfold are allowed in device settings and that [Settings - Reminders] is on in the app.</li>
+      <li>Some Android devices delay or block scheduled notifications under battery-saving settings. Exempting Hundredfold from battery optimization helps.</li>
+    </ul>
+
+    <h2><span class="num">06</span>Where is my data</h2>
+    <p>Your goal sentence, records, recordings, handwriting and photos are stored only on your device and are never sent to us. If you turn on the optional AI coach, only your goal sentence and its category are sent. See the <a href="../privacy/#en">Privacy Policy</a> and <a href="../terms/#en">Terms of Service</a>. Delete records in the app or by uninstalling it.</p>
+
+    <div class="footer">
+      (c) 2026 Hasegi Inc.<span class="dot"> / </span><br class="mobile-br" />백일백번 (Hundredfold)
+    </div>
+  </main>
+</body>
+</html>

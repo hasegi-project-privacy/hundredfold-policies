@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>백일백번 정책 안내</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#f7f1e6; --ink:#1b130a; --sub:#6b5d47; --muted:#8e8265; --rule:#d9cdb1; --gold:#b8893d; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#12100b; --ink:#f1e9d6; --sub:#b7ab91; --muted:#7e7359; --rule:#3a3327; --gold:#d4a45d; }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; }
+    body {
+      background: var(--bg); color: var(--ink);
+      font-family: 'Noto Serif KR', serif; line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    }
+    main { max-width: 480px; padding: 56px 24px; text-align: center; }
+    .eyebrow { font-size: 11px; letter-spacing: 3px; color: var(--gold); text-transform: uppercase; }
+    h1 { font-size: 32px; letter-spacing: -0.6px; margin: 8px 0 12px; font-weight: 400; }
+    .tagline { font-size: 14px; color: var(--sub); margin: 0 0 20px; }
+    .meta { font-size: 12px; color: var(--muted); letter-spacing: 1px; margin-bottom: 32px; }
+    .group { font-size: 11px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; margin: 28px 0 10px; }
+    .links { display: flex; flex-direction: column; gap: 12px; }
+    a.tile {
+      display: block; padding: 18px 16px; border: 0.6px solid var(--rule); border-radius: 4px;
+      color: var(--ink); text-decoration: none; transition: border-color 0.2s;
+    }
+    a.tile:hover { border-color: var(--gold); }
+    a.tile .label { display: block; font-size: 11px; color: var(--gold); letter-spacing: 2px; margin-bottom: 4px; }
+    a.tile .name { font-size: 16px; }
+    .footer { margin-top: 56px; font-size: 11px; color: var(--muted); letter-spacing: 1px; line-height: 1.8; }
+    .footer a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">100 days, 100 times</div>
+    <h1>백일백번 정책 안내</h1>
+    <p class="tagline">목표를 하루 100번 말하고 100번 쓰며 안개 다리를 100일에 건너는 실천 앱.<br />말한 횟수와 쓴 줄 수는 기기 안에서 세고, 기록은 기기에만 남습니다.</p>
+    <div class="meta">Hundredfold · com.hasegi.hundredfold<br />© 2026 Hasegi Inc.</div>
+
+    <div class="group">한국어</div>
+    <div class="links">
+      <a class="tile" href="./terms/"><span class="label">Terms</span><span class="name">이용약관</span></a>
+      <a class="tile" href="./privacy/"><span class="label">Privacy</span><span class="name">개인정보 처리방침</span></a>
+      <a class="tile" href="./support/"><span class="label">Support</span><span class="name">고객 지원</span></a>
+    </div>
+
+    <div class="group">English</div>
+    <div class="links">
+      <a class="tile" href="./terms/#en"><span class="label">Terms</span><span class="name">Terms of Service</span></a>
+      <a class="tile" href="./privacy/#en"><span class="label">Privacy</span><span class="name">Privacy Policy</span></a>
+      <a class="tile" href="./support/#en"><span class="label">Support</span><span class="name">Support</span></a>
+    </div>
+
+    <!-- 출시 후 스토어 링크 추가: App Store는 숫자 Apple ID 필수 (https://apps.apple.com/app/id{APPLE_ID}), Play는 https://play.google.com/store/apps/details?id=com.hasegi.hundredfold -->
+
+    <div class="footer">개발팀  ·  문의 <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a></div>
+  </main>
+</body>
+</html>
