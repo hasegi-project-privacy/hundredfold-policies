@@ -159,7 +159,7 @@
   <main id="top">
     <div class="eyebrow">Privacy Policy</div>
     <h1>개인정보 처리방침</h1>
-    <div class="meta">백일백번 (Hundredfold) · com.hasegi.hundredfold<br />최종 개정 2026-10-19 / 시행 2026-10-19 · v1.0<br /><a href="#en">English version below</a></div>
+    <div class="meta">백일백번 (Hundredfold) · com.hasegi.hundredfold<br />최종 개정 {{발행일}} / 시행 {{발행일}} · v1.0<br /><a href="#en">English version below</a></div>
 
     <p>
       Hasegi Inc.(이하 "운영자")는 모바일 애플리케이션 <strong>백일백번</strong>(이하 "서비스")을 운영하며,
@@ -169,7 +169,7 @@
 
     <div class="callout">
       <p><strong>핵심 요약</strong></p>
-      <p>서비스는 회원가입·로그인 없이 모든 기능을 이용할 수 있습니다. 목표 문장, 말하고 쓴 횟수, 손글씨, 감사·증거 기록, 직접 녹음한 목소리, 사진은 <strong>이용자의 기기에만</strong> 저장되며 운영자의 서버로 전송되지 않습니다. 마이크 소리와 손글씨 획은 <strong>기기 안에서</strong> 인식해 횟수만 세고, 소리는 저장하지 않습니다(이용자가 설정에서 「온라인 인식 허용」을 켠 경우에만 기기 안 인식이 없을 때 운영체제 제공자의 서버 인식이 쓰일 수 있습니다). 선택 기능인 <strong>AI 코치</strong>를 켜고 쓰면 <strong>목표 문장과 카테고리만</strong> 운영자의 중계 서버(Cloudflare)를 거쳐 Anthropic(Claude)에 전달되어 문장 제안이 만들어지며, 운영자는 그 본문을 저장하지 않습니다. 무료 이용자에게는 Google AdMob 광고가 표시되고 광고 식별자가 Google과 공유됩니다. 분석 SDK와 푸시 서버는 쓰지 않습니다. 만 14세 미만은 이용할 수 없습니다.</p>
+      <p>서비스는 회원가입·로그인 없이 모든 기능을 이용할 수 있습니다. 목표 문장, 말하고 쓴 횟수, 손글씨, 감사·증거 기록, 직접 녹음한 목소리, 사진은 <strong>이용자의 기기에만</strong> 저장되며 운영자의 서버로 전송되지 않습니다. 마이크 소리와 손글씨 획은 <strong>기기 안에서</strong> 인식해 횟수만 세고, 소리는 저장하지 않습니다(이용자가 설정에서 「온라인 인식 허용」을 켠 경우에만 기기 안 인식이 없을 때 운영체제 제공자의 서버 인식이 쓰일 수 있습니다). 선택 기능인 <strong>AI 코치</strong>를 켜고 쓰면 <strong>목표 문장과 카테고리만</strong>(감정 손님에게 건넬 한 줄은 손님 종류만) 운영자의 중계 서버(Cloudflare)를 거쳐 Anthropic(Claude)에 전달되어 문장 제안이 만들어지며, 운영자는 그 본문을 저장하지 않습니다. 중계 서버에는 사용 횟수를 세기 위한 <strong>무작위 설치 번호와 사용 횟수</strong>만 남습니다. 무료 이용자에게는 Google AdMob 광고가 표시되고 광고 식별자가 Google과 공유됩니다. 분석 SDK와 푸시 서버는 쓰지 않습니다. 만 14세 미만은 이용할 수 없습니다.</p>
     </div>
 
     <div class="callout">
@@ -190,28 +190,29 @@
         <tr><td>실천 기록</td><td>날짜별 말한 횟수·쓴 줄 수와 쓰기 방식, 화면 손글씨 획, 감사 3줄과 미리 감사 1줄, 감정 손님 기록(종류와 선택 입력한 한 줄), 증거 수첩(글과 사진), 이불 정리·하이파이브 체크, 구간 편지 열람, 다리 칸·스트릭·통계</td><td>기기(앱 데이터베이스·문서 폴더)</td></tr>
         <tr><td>마이크 소리(말하기)</td><td>「소리」 방식으로 말하기를 할 때 마이크 소리를 음성 인식에 넣어 목표 문장과 비슷한지 비교하고 <strong>횟수만</strong> 셉니다. 소리는 녹음·저장·전송하지 않습니다. 기기 안 인식을 우선 쓰며, 이용자가 [설정 - 말하기 - 온라인 인식 허용]을 켠 경우에 한해 기기 안 인식이 없을 때 운영체제 제공자(Apple 또는 Google)의 서버 인식이 쓰일 수 있고, 이때의 처리는 그 제공자의 정책을 따릅니다. 「조용히」 방식은 마이크를 쓰지 않습니다</td><td>처리 후 즉시 폐기(저장 없음)</td></tr>
         <tr><td>내 목소리 녹음</td><td>이용자가 직접 누르고 녹음한 목표 문장 음성(문장 판마다 1개)과 회고 녹음. 미리보기·수면 루프·아침 알림 탭에서 이용자 본인에게만 재생됩니다. 운영자에게 전송되지 않습니다</td><td>기기(문서 폴더 media/recordings)</td></tr>
-        <tr><td>손글씨</td><td>화면에 쓴 획은 기기 안의 손글씨 인식(Google ML Kit Digital Ink)으로 목표 문장과 비교해 줄 수를 셉니다. 인식 모델 파일(약 20MB)은 처음 쓸 때 이용자의 통신망으로 내려받으며, 획은 기기 밖으로 나가지 않습니다. 종이 모드에서 찍은 공책 사진은 기기 안에서 잉크 줄 수를 세는 데만 씁니다</td><td>기기</td></tr>
-        <tr><td>사진</td><td>증거 수첩에 이용자가 고르거나 찍은 사진(하루 1장, Pro는 제한 없음), 종이 모드 촬영 사진</td><td>기기(문서 폴더 media/photos)</td></tr>
-        <tr><td>동작 센서</td><td>미리보기 장면을 기울임에 따라 움직이는 효과에만 쓰고 저장하지 않습니다. [설정 - 느낌 - 미리보기 움직임]에서 끌 수 있습니다</td><td>저장 없음</td></tr>
+        <tr><td>손글씨</td><td>화면에 쓴 획은 기기 안의 손글씨 인식(Google ML Kit Digital Ink)으로 목표 문장과 비교해 줄 수를 셉니다. 인식 모델 파일(약 20MB)은 처음 쓸 때 이용자의 통신망으로 내려받으며, 획은 기기 밖으로 나가지 않습니다. 종이 모드에서 찍거나 고른 공책 사진은 기기 안에서 잉크 줄 수를 세는 데만 쓰고, <strong>센 뒤 바로 지우며</strong> 저장·전송하지 않습니다</td><td>기기(공책 사진은 저장 없음)</td></tr>
+        <tr><td>사진</td><td>증거 수첩에 이용자가 고르거나 찍은 사진(하루 1장, Pro는 제한 없음). 종이 모드의 공책 사진은 줄 수를 센 뒤 바로 지우므로 여기에 남지 않습니다</td><td>기기(문서 폴더 media/photos)</td></tr>
+        <tr><td>동작 센서</td><td>미리보기 장면을 기울임에 따라 움직이는 효과에만 쓰고 저장하지 않습니다. [설정 - 화면과 느낌 - 그림 움직임]에서 끌 수 있습니다</td><td>저장 없음</td></tr>
         <tr><td>설정</td><td>알림 시각, 말하기 방식, 하루 줄 수, 쓰기 방식, 테마, 언어, 진동, 동작 줄이기, AI 코치 켜기 등</td><td>기기(설정)</td></tr>
         <tr><td>Pro 구매 상태</td><td>스토어 결제 결과의 표시용 사본(구독 종류, 스토어가 마지막으로 확인해 준 시각). 영수증·결제수단은 스토어가 처리하며 운영자는 받지 않습니다</td><td>기기(설정)</td></tr>
         <tr><td>광고 식별자 등(무료 이용자)</td><td>Google AdMob SDK가 광고 식별자(iOS IDFA·Android 광고 ID), 광고 노출·클릭 같은 앱 상호작용, 접속 IP 주소(대략적인 위치 추정에 쓰일 수 있음), 진단 정보를 Google로 전송합니다. 목적은 광고 표시·측정, 부정 클릭 방지입니다. iOS에서는 앱 추적 투명성(ATT) 창에서 거부할 수 있고, 거부해도 일반 광고는 표시됩니다. 만 18세 미만일 수 있는 이용자에게는 맞춤 광고와 추적 권한 요청을 하지 않습니다. Pro 이용자에게는 광고가 없습니다</td><td>Google AdMob(기기 밖)</td></tr>
         <tr><td>광고 개인정보 동의 상태</td><td>무료 이용자의 앱 실행 시 Google의 동의 관리 SDK(UMP)가 「동의가 필요한 지역인가」를 Google에 확인합니다. 유럽경제지역·영국·스위스 등에서는 광고 전에 동의 창이, 미국 일부 주에서는 안내 창이 표시될 수 있으며, 고른 내용은 기기와 Google에 남습니다. [설정 - 정보 - 광고 개인정보 설정]에서 다시 고를 수 있습니다(해당 지역에서만 표시)</td><td>Google(UMP) · 기기</td></tr>
-        <tr><td>AI 코치 요청(선택)</td><td>AI 코치를 켜고 문장 제안·「더 크게」 제안·손님에게 건넬 한 줄을 요청할 때 <strong>목표 문장(또는 「지금 원하는 것」 한 줄), 카테고리, 화면 언어</strong>가 운영자의 중계 서버(Cloudflare Worker)를 거쳐 Anthropic(Claude)으로 전송됩니다. 녹음·손글씨·사진·일기는 전송되지 않습니다. 운영자는 요청·응답 본문을 서버에 저장하지 않습니다</td><td>Cloudflare → Anthropic(기기 밖, 본문 저장 없음)</td></tr>
-        <tr><td>접속 정보</td><td>AI 코치 요청 때 접속 IP 주소 등 통상의 접속 정보가 남용 방지를 위한 요청 빈도 제한에 짧게 쓰이고, Cloudflare가 자동으로 남기는 접속 기록에 보관 기간 동안 남을 수 있습니다. 운영자가 직접 남기는 기록에는 요청 본문과 IP 주소를 담지 않습니다</td><td>Cloudflare(단기)</td></tr>
+        <tr><td>AI 코치 요청(선택)</td><td>AI 코치를 켜고 문장 제안·「더 크게」 제안을 요청할 때 <strong>목표 문장(또는 「지금 원하는 것」 한 줄), 카테고리, 화면 언어</strong>가, 손님에게 건넬 한 줄을 요청할 때 <strong>손님 종류(두려움·의심 등)와 화면 언어</strong>가 운영자의 중계 서버(Cloudflare Worker)를 거쳐 Anthropic(Claude)으로 전송됩니다. 손님 기록에 이용자가 적은 메모, 녹음·손글씨·사진·일기는 전송되지 않습니다. 운영자는 요청·응답 본문을 서버에 저장하지 않습니다</td><td>Cloudflare → Anthropic(기기 밖, 본문 저장 없음)</td></tr>
+        <tr><td>AI 코치 사용 기록(선택)</td><td>AI 코치를 처음 쓸 때 중계 서버가 <strong>무작위 설치 번호(설치 ID)</strong>를 발급합니다. 서버 데이터베이스(Cloudflare D1)에는 설치 ID, 기기 종류(iOS·Android), 앱 버전, 발급 시각과 마지막 발급일, 기기가 보관하는 설치 키의 해시값, <strong>사용 횟수</strong>(무료로 쓴 횟수·광고로 받은 추가 횟수·하루 사용 수)를 저장하고(남용이 확인된 설치 ID는 차단 사유와 기한도 둡니다), 서비스 전체의 날짜별 호출 수·토큰 수·비용 합계를 둡니다. 운영 기록(로그)에는 요청마다 기능 이름, 설치 ID 앞 8자, 무료/Pro 구분, 모델 이름, 토큰 수·비용·처리 시간·결과 코드만 남기며, 문장·모델 답·IP 주소는 남기지 않습니다. 설치 ID는 이름·이메일·광고 식별자와 연결되지 않으며, 앱 [설정 - AI 코치 - 설치 번호]에서 확인할 수 있습니다</td><td>운영자 중계 서버(Cloudflare)</td></tr>
+        <tr><td>접속 정보</td><td>AI 코치 요청 때 접속 IP 주소는 남용 방지를 위한 요청 빈도 제한에만 쓰이며, 서버 비밀값으로 해시한 값으로만 짧게(길어야 2시간) 남고 IP 원문은 저장하지 않습니다. 중계 서버의 요청 자동 기록(Cloudflare invocation log)은 꺼 두었으며, Cloudflare가 네트워크 보안·장애 대응을 위해 처리하는 접속 정보는 Cloudflare의 정책을 따릅니다</td><td>Cloudflare(단기)</td></tr>
         <tr><td>홈 위젯</td><td>오늘 네 실천의 완료 상태, 다리 진행(n/100), 목표 문장 한 줄(설정에서 숨길 수 있음)을 위젯이 읽을 수 있도록 기기 안 앱 공유 저장소에 둡니다</td><td>기기</td></tr>
-        <tr><td>백업 파일</td><td>[설정 - 데이터 - 백업 내보내기]로 만든 zip 파일(기록·설정과 함께 녹음·사진 포함). 이용자가 공유 시트로 고른 곳(파일 앱, 클라우드 드라이브, 메신저 등)에 저장되며, 그곳의 처리는 그 서비스의 정책을 따릅니다. 결제 상태는 들어가지 않습니다</td><td>이용자가 고른 곳</td></tr>
+        <tr><td>백업 파일</td><td>[설정 - 백업 - 백업 내보내기]로 만든 zip 파일(기록·설정과 함께 녹음·사진 포함). 이용자가 공유 시트로 고른 곳(파일 앱, 클라우드 드라이브, 메신저 등)에 저장되며, 그곳의 처리는 그 서비스의 정책을 따릅니다. 결제 상태는 들어가지 않습니다</td><td>이용자가 고른 곳</td></tr>
         <tr><td>문의·신고 메일</td><td>이용자가 보낸 메일 주소와 내용(신고 메일에는 신고 대상 AI 제안이 담길 수 있음)</td><td>운영자 메일함(Google Gmail)</td></tr>
       </tbody>
     </table></div>
-    <p>이용자의 기기(운영체제)가 제공하는 자동 백업(iOS의 iCloud 백업, Android의 Google 자동 백업)이 켜져 있으면 앱 데이터와 문서 폴더(녹음·사진 포함)가 이용자의 클라우드 계정에 백업될 수 있습니다. 이는 이용자와 Apple·Google 사이의 서비스이며 운영자는 접근할 수 없습니다.</p>
+    <p>이용자의 기기(운영체제)가 제공하는 자동 백업(iOS의 iCloud 백업, Android의 Google 자동 백업·기기 간 이전)이 켜져 있으면 앱 데이터와 문서 폴더(녹음·사진 포함)가 이용자의 클라우드 계정이나 새 기기로 옮겨질 수 있습니다. Android에서는 앱 데이터베이스·설정·녹음·사진만 대상이고, 내보낸 백업 파일과 캐시는 빼 둡니다. 이는 이용자와 Apple·Google 사이의 서비스이며 운영자는 접근할 수 없습니다.</p>
     <p>서비스는 <strong>만 14세 미만 어린이를 대상으로 하지 않으며</strong>, 온보딩의 출생 연도 확인에서 만 14세 미만으로 확인되면 이용할 수 없습니다. 운영자는 만 14세 미만 어린이의 개인정보를 알면서 수집하지 않습니다.</p>
 
     <h2><span class="num">02</span>이용 목적</h2>
     <ul>
       <li>목표 문장을 말하고 쓴 횟수를 세고, 100일 다리의 진행·스트릭·통계를 기기 안에서 계산해 보여 주기 위해</li>
       <li>이용자가 녹음한 목소리를 미리보기·수면 루프에서 본인에게 재생하기 위해</li>
-      <li>AI 코치(선택)로 목표 문장 제안을 만들기 위해(전송 항목은 §01)</li>
+      <li>AI 코치(선택)로 목표 문장 제안을 만들고, 설치마다 무료 횟수·하루 상한·서비스 전체 비용 상한을 지키기 위해(전송·저장 항목은 §01)</li>
       <li>이용자가 정한 시각에 기기 안에서 예약되는 로컬 알림을 보내기 위해(하루 최대 3건, 서버 없음)</li>
       <li>무료 이용자에게 광고를 표시·측정하고 부정 클릭을 막기 위해(Google AdMob)</li>
       <li>Pro 구매 상태를 확인·복원하기 위해(스토어 결제)</li>
@@ -224,7 +225,8 @@
       <li><strong>기기에 저장된 정보</strong>(목표·기록·녹음·사진·설정): 이용자가 앱 안에서 지우거나 앱을 삭제할 때까지. 운영자는 사본을 갖고 있지 않아 앱을 지우면 복구할 수 없습니다(이용자가 내보낸 백업 파일은 이용자가 관리합니다).</li>
       <li><strong>마이크 소리·손글씨 획·동작 센서 값</strong>: 횟수를 세는 처리가 끝나면 즉시 폐기하며 저장하지 않습니다.</li>
       <li><strong>AI 코치 요청·응답 본문</strong>: 운영자 서버에 저장하지 않습니다. 처리자인 Anthropic은 상용 API 약관에 따라 입력·출력을 모델 학습에 쓰지 않으며, 입력·출력을 수신 후 30일 안에 자동 삭제한다고 밝히고 있습니다(정책 위반이 의심되는 요청이나 법령상 보존이 필요한 경우 더 오래 보관될 수 있음 — 2026-10-19 Anthropic 공개 정책 기준).</li>
-      <li><strong>접속 정보</strong>: 요청 빈도 제한에 쓰인 값은 제한 창(최대 수 시간)이 지나면 지워지고, Cloudflare가 자동으로 남기는 접속 기록은 Cloudflare의 로그 보관 기간(요금제에 따라 3일 또는 7일) 뒤 지워집니다.</li>
+      <li><strong>AI 코치 사용 기록</strong>(설치 ID·사용 횟수 등): 평생 무료 횟수를 세야 하므로 AI 코치 서비스를 제공하는 동안 보관합니다. 이용자가 설치 번호와 함께 삭제를 요청하면 지체 없이 지우고, 서비스를 끝내면 모두 지웁니다. 날짜별 전체 합계(호출 수·토큰 수·비용)는 이용자를 구분하지 않는 값입니다. 운영 기록(로그)은 Cloudflare의 로그 보관 기간(요금제에 따라 3일 또는 7일) 뒤 지워집니다.</li>
+      <li><strong>접속 정보</strong>: 요청 빈도 제한에 쓰인 해시값은 제한 창이 끝나면(길어야 2시간) 지워집니다.</li>
       <li><strong>광고 식별자·광고 개인정보 동의 상태</strong>: Google의 정책과 이용자의 기기 설정을 따릅니다.</li>
       <li><strong>문의·신고 메일</strong>: 처리 목적을 달성한 뒤 지체 없이 삭제하며, 법령이 보존을 요구하는 경우 그 기간 동안 보관합니다.</li>
     </ul>
@@ -237,8 +239,8 @@
       <tbody>
         <tr><td>Google LLC (AdMob)</td><td>광고 표시·측정(제3자 광고 — 「공유」에 해당)</td><td>광고 식별자, 광고 노출·클릭 등 앱 상호작용, IP 주소, 진단 정보. 무료 이용자만</td></tr>
         <tr><td>Google LLC (UMP)</td><td>광고 개인정보 동의 관리</td><td>동의 필요 지역 판정과 동의 선택 내용. 무료 이용자만</td></tr>
-        <tr><td>Cloudflare, Inc.</td><td>AI 코치 중계 서버 운영(처리 위탁)</td><td>AI 코치 요청(목표 문장·카테고리·화면 언어)의 중계, 접속 IP의 빈도 제한·자동 접속 기록. 본문 저장 없음</td></tr>
-        <tr><td>Anthropic, PBC</td><td>AI 코치 문장 생성(처리 위탁)</td><td>목표 문장·카테고리·화면 언어. 모델 학습 미사용, 30일 내 삭제(§03)</td></tr>
+        <tr><td>Cloudflare, Inc.</td><td>AI 코치 중계 서버 운영(처리 위탁)</td><td>AI 코치 요청(목표 문장·카테고리·화면 언어, 손님 한 줄은 손님 종류)의 중계, AI 코치 사용 기록(설치 ID·사용 횟수) 저장, 해시한 IP의 빈도 제한, 운영 기록. 본문 저장 없음</td></tr>
+        <tr><td>Anthropic, PBC</td><td>AI 코치 문장 생성(처리 위탁)</td><td>목표 문장·카테고리·화면 언어(손님 한 줄은 손님 종류). 설치 ID·IP 주소는 전달되지 않습니다. 모델 학습 미사용, 30일 내 삭제(§03)</td></tr>
         <tr><td>Apple Inc. / Google LLC (운영체제 음성 인식)</td><td>온라인 음성 인식(이용자가 「온라인 인식 허용」을 켠 경우, 기기 안 인식이 없을 때만)</td><td>마이크 소리. 각 운영체제 제공자의 정책에 따라 처리되며 운영자는 받지 않습니다</td></tr>
         <tr><td>Google LLC (ML Kit)</td><td>손글씨 인식 모델 파일 배포</td><td>모델 파일 내려받기 요청(통상 접속 정보). 획·글자는 전송되지 않습니다</td></tr>
         <tr><td>Apple Inc. / Google LLC (App Store · Google Play)</td><td>인앱 결제·구독 관리·구매 복원</td><td>결제 정보 전부(운영자는 결제수단을 받지 않음)</td></tr>
@@ -256,14 +258,15 @@
       <li><strong>광고 식별자</strong>: iOS [설정 - 개인정보 보호 및 보안 - 추적]에서 추적 허용을 끄거나, Android [설정 - Google - 광고]에서 광고 ID를 재설정·삭제할 수 있습니다. 해당 지역에서는 앱 [설정 - 정보 - 광고 개인정보 설정]에서 동의를 다시 고를 수 있습니다.</li>
       <li><strong>알림</strong>: 앱 [설정 - 알림] 또는 기기 설정에서 끌 수 있습니다.</li>
       <li><strong>법정대리인</strong>: 만 14세 미만 어린이의 정보가 수집되었다고 판단되면 아래 연락처로 알려 주시면 확인 후 지체 없이 삭제합니다.</li>
-      <li><strong>문의·요청</strong>: 그 밖의 열람·삭제 요청과 질문은 <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>으로 보내 주시면 지체 없이 처리합니다. 운영자 서버에는 이용자를 식별할 수 있는 기록이 없으므로, 삭제 요청은 주로 메일함의 문의 기록에 적용됩니다.</li>
+      <li><strong>AI 코치 서버 기록 삭제</strong>: 앱 [설정 - AI 코치 - 설치 번호]를 누르면 번호가 복사됩니다. 이 번호를 <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>으로 보내 주시면 그 설치 ID의 서버 기록(설치 정보·사용 횟수)을 지체 없이 지우고 결과를 답장으로 알려 드립니다. 운영자는 설치 ID를 이름·연락처와 연결하지 않으므로 번호 없이 보내 주신 요청은 해당 기록을 찾을 수 없습니다.</li>
+      <li><strong>문의·요청</strong>: 그 밖의 열람·삭제 요청과 질문은 <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>으로 보내 주시면 지체 없이 처리합니다. 운영자 서버에는 이름·연락처처럼 이용자를 직접 알아볼 수 있는 기록이 없으며, 그 밖의 삭제 요청은 주로 메일함의 문의 기록에 적용됩니다.</li>
     </ul>
 
     <h2><span class="num">06</span>개인정보의 안전성 확보 조치</h2>
     <ul>
       <li>이용자의 기록·녹음·사진은 운영자 서버에 두지 않고 이용자의 기기 안에서만 처리·저장합니다.</li>
       <li>마이크·손글씨·사진은 각 기능을 처음 쓸 때 목적을 안내한 뒤 권한을 요청하며, 마이크가 켜진 동안에는 화면에 「듣는 중」 표시와 붉은 점을 보여 줍니다.</li>
-      <li>모든 통신(AI 코치, 광고, 모델 다운로드)은 https로 암호화되며, 중계 서버는 요청 본문을 저장하지 않습니다.</li>
+      <li>모든 통신(AI 코치, 광고, 모델 다운로드)은 https로 암호화되며, 중계 서버는 요청 본문과 IP 원문을 저장하지 않고 설치 키는 해시값으로만 둡니다.</li>
       <li>서비스에 분석·행동 추적 SDK를 포함하지 않습니다.</li>
       <li>운영자가 받는 문의 메일은 접근 권한이 있는 담당자만 열람합니다.</li>
     </ul>
@@ -288,12 +291,12 @@
     </table></div>
 
     <h2><span class="num">09</span>처리방침의 변경</h2>
-    <p>본 처리방침은 2026-10-19부터 시행됩니다. 법령·서비스 변경에 따라 내용이 바뀌면 시행일 7일 전(이용자에게 불리한 변경은 30일 전)에 앱 내 또는 본 페이지를 통해 공지합니다. AI 코치가 전송하는 항목이나 처리자가 바뀌는 경우에도 같은 방법으로 알립니다.</p>
+    <p>본 처리방침은 {{발행일}}부터 시행됩니다. 법령·서비스 변경에 따라 내용이 바뀌면 시행일 7일 전(이용자에게 불리한 변경은 30일 전)에 앱 내 또는 본 페이지를 통해 공지합니다. AI 코치가 전송하는 항목이나 처리자가 바뀌는 경우에도 같은 방법으로 알립니다.</p>
     <div class="rule section" id="en"></div>
 
     <div class="eyebrow">Privacy Policy</div>
     <h1>Privacy Policy</h1>
-    <div class="meta">Hundredfold (백일백번) · com.hasegi.hundredfold<br />Last revised 2026-10-19 / Effective 2026-10-19 · v1.0<br /><a href="#top">한국어 버전은 위에 있습니다</a></div>
+    <div class="meta">Hundredfold (백일백번) · com.hasegi.hundredfold<br />Last revised {{발행일}} / Effective {{발행일}} · v1.0<br /><a href="#top">한국어 버전은 위에 있습니다</a></div>
 
     <p>
       Hasegi Inc. ("we", "the operator") operates the mobile application <strong>Hundredfold</strong> ("the Service").
@@ -302,7 +305,7 @@
 
     <div class="callout">
       <p><strong>Summary</strong></p>
-      <p>The Service has no sign-up or login. Your goal sentence, the counts of what you said and wrote, your handwriting, gratitude and evidence entries, the voice you record yourself and your photos stay <strong>on your device only</strong> and are never sent to our servers. Microphone audio and handwriting strokes are recognized <strong>on the device</strong> to count repetitions; audio is not stored. (Only if you turn on "Allow online recognition" in Settings, and only when on-device recognition is unavailable, the operating system provider's server recognition may be used.) If you turn on the optional <strong>AI coach</strong>, <strong>only your goal sentence and its category</strong> are sent through our relay server (Cloudflare) to Anthropic (Claude) to generate suggestions; we do not store that text. Free users see Google AdMob ads and the advertising identifier is shared with Google. No analytics SDK and no push server are used. The Service is not available to anyone under 14.</p>
+      <p>The Service has no sign-up or login. Your goal sentence, the counts of what you said and wrote, your handwriting, gratitude and evidence entries, the voice you record yourself and your photos stay <strong>on your device only</strong> and are never sent to our servers. Microphone audio and handwriting strokes are recognized <strong>on the device</strong> to count repetitions; audio is not stored. (Only if you turn on "Allow online recognition" in Settings, and only when on-device recognition is unavailable, the operating system provider's server recognition may be used.) If you turn on the optional <strong>AI coach</strong>, <strong>only your goal sentence and its category</strong> (for a line to an emotion guest, only the guest type) are sent through our relay server (Cloudflare) to Anthropic (Claude) to generate suggestions; we do not store that text. The relay server keeps only <strong>a random install number and your usage count</strong>. Free users see Google AdMob ads and the advertising identifier is shared with Google. No analytics SDK and no push server are used. The Service is not available to anyone under 14.</p>
     </div>
 
     <div class="callout">
@@ -323,28 +326,29 @@
         <tr><td>Practice records</td><td>Daily counts of sentences spoken and lines written and the method used, on-screen handwriting strokes, three gratitude lines and one advance-gratitude line, emotion guest entries (type and an optional one-line note), evidence notebook entries (text and photo), bed-making and high-five checks, stage letters read, bridge planks, streaks and statistics</td><td>Device (app database and documents folder)</td></tr>
         <tr><td>Microphone audio (speaking)</td><td>In the "Out loud" mode, microphone audio is fed to speech recognition to compare what you said with your goal sentence, and <strong>only the count</strong> is kept. Audio is not recorded, stored or transmitted. On-device recognition is used first. Only if you turn on [Settings - Speaking - Allow online recognition], and only when on-device recognition is unavailable, server-side recognition by the operating system provider (Apple or Google) may be used under that provider's policy. The "Quiet" mode does not use the microphone</td><td>Discarded immediately after processing (not stored)</td></tr>
         <tr><td>Your own voice recording</td><td>The recording of your goal sentence that you make yourself by pressing record (one per sentence version) and milestone recordings. Played back only to you, in previews, the sleep loop and from the morning reminder. Never sent to us</td><td>Device (documents folder media/recordings)</td></tr>
-        <tr><td>Handwriting</td><td>Strokes written on screen are recognized on the device (Google ML Kit Digital Ink) and compared with your goal sentence to count lines. The recognition model file (about 20 MB) is downloaded over your network the first time; strokes never leave the device. In paper mode, the photo of your notebook is used only to count ink lines on the device</td><td>Device</td></tr>
-        <tr><td>Photos</td><td>Photos you pick or take for the evidence notebook (one a day; unlimited with Pro) and paper-mode photos</td><td>Device (documents folder media/photos)</td></tr>
-        <tr><td>Motion sensor</td><td>Used only for the tilt effect in preview scenes and not stored. Can be turned off in [Settings - Feel - Preview motion]</td><td>Not stored</td></tr>
+        <tr><td>Handwriting</td><td>Strokes written on screen are recognized on the device (Google ML Kit Digital Ink) and compared with your goal sentence to count lines. The recognition model file (about 20 MB) is downloaded over your network the first time; strokes never leave the device. In paper mode, the notebook photo you take or pick is used only to count ink lines on the device and is <strong>deleted right after counting</strong>; it is never stored or sent</td><td>Device (notebook photos not stored)</td></tr>
+        <tr><td>Photos</td><td>Photos you pick or take for the evidence notebook (one a day; unlimited with Pro). Paper-mode notebook photos are deleted right after counting, so they do not remain here</td><td>Device (documents folder media/photos)</td></tr>
+        <tr><td>Motion sensor</td><td>Used only for the tilt effect in preview scenes and not stored. Can be turned off in [Settings - Display &amp; feel - Scene motion]</td><td>Not stored</td></tr>
         <tr><td>Settings</td><td>Reminder times, speaking method, lines per day, writing method, theme, language, haptics, reduce motion, AI coach on/off, and similar</td><td>Device (settings)</td></tr>
         <tr><td>Pro purchase status</td><td>A display copy of the store's purchase result (plan type and the time the store last confirmed it). Receipts and payment methods are handled by the store; we never receive them</td><td>Device (settings)</td></tr>
         <tr><td>Advertising identifier and related data (free users)</td><td>The Google AdMob SDK sends the advertising identifier (iOS IDFA / Android advertising ID), app interactions such as ad impressions and taps, the connection IP address (which may be used to estimate an approximate location) and diagnostic information to Google, for showing and measuring ads and preventing fraudulent clicks. On iOS you can decline in the App Tracking Transparency prompt; non-personalized ads are still shown. Users who may be under 18 are not asked for tracking permission and receive non-personalized ads only. Pro users see no ads</td><td>Google AdMob (off device)</td></tr>
         <tr><td>Ad privacy consent status</td><td>When a free user opens the app, Google's consent management SDK (UMP) checks with Google whether consent is required for the region. In the EEA, the UK, Switzerland and similar regions a consent form is shown before ads; in some US states a notice may be shown. Your choice is stored on the device and at Google. You can change it in [Settings - About - Ad privacy choices] (shown only in those regions)</td><td>Google (UMP) · device</td></tr>
-        <tr><td>AI coach request (optional)</td><td>When the AI coach is on and you ask for sentence suggestions, a "Bigger" suggestion or a line for an emotion guest, <strong>your goal sentence (or your "what you want now" line), its category and the app language</strong> are sent through our relay server (Cloudflare Worker) to Anthropic (Claude). Recordings, handwriting, photos and journal entries are never sent. We do not store the request or response text on our server</td><td>Cloudflare → Anthropic (off device, text not stored)</td></tr>
-        <tr><td>Connection data</td><td>For AI coach requests, ordinary connection data such as the IP address is used briefly for rate limiting to prevent abuse, and may remain in the access logs Cloudflare records automatically for its retention period. The records we keep ourselves contain neither the request text nor the IP address</td><td>Cloudflare (short term)</td></tr>
+        <tr><td>AI coach request (optional)</td><td>When the AI coach is on and you ask for sentence suggestions or a "Bigger" suggestion, <strong>your goal sentence (or your "what you want now" line), its category and the app language</strong> are sent, and when you ask for a line for an emotion guest, <strong>the guest type (fear, doubt and so on) and the app language</strong> are sent, through our relay server (Cloudflare Worker) to Anthropic (Claude). Notes you write in guest entries, recordings, handwriting, photos and journal entries are never sent. We do not store the request or response text on our server</td><td>Cloudflare → Anthropic (off device, text not stored)</td></tr>
+        <tr><td>AI coach usage record (optional)</td><td>The first time you use the AI coach, our relay server issues a <strong>random install number (install ID)</strong>. Its database (Cloudflare D1) stores the install ID, device type (iOS or Android), app version, issue time and last issue date, a hash of the install key kept on your device, and your <strong>usage counts</strong> (free uses used, extra uses earned with ads, uses today) (for an install ID found abusing the service, also the block reason and end time), plus service-wide daily totals of calls, tokens and cost. Our operational log keeps, per request, only the feature name, the first 8 characters of the install ID, free/Pro, the model name, token counts, cost, processing time and the result code; it never contains your sentences, the model's answer or IP addresses. The install ID is not linked to any name, email address or advertising identifier, and you can see it in [Settings - AI coach - Install number] in the app</td><td>Our relay server (Cloudflare)</td></tr>
+        <tr><td>Connection data</td><td>For AI coach requests, the IP address is used only for rate limiting to prevent abuse and is kept only as a value hashed with a server secret, for a short time (at most 2 hours); the raw IP address is not stored. Automatic request logging on the relay server (Cloudflare invocation logs) is turned off; connection data that Cloudflare processes for network security and incident response is governed by Cloudflare's policies</td><td>Cloudflare (short term)</td></tr>
         <tr><td>Home screen widget</td><td>Today's completion state of the four practices, bridge progress (n/100) and one line of the goal sentence (can be hidden in Settings) are placed in the on-device shared app storage so that the widget can read them</td><td>Device</td></tr>
-        <tr><td>Backup file</td><td>The zip file created with [Settings - Data - Export backup] (records and settings, including recordings and photos). It is saved wherever you choose in the share sheet (Files, a cloud drive, a messenger, and so on), and that destination's own policy applies. Purchase status is not included</td><td>Where you choose</td></tr>
+        <tr><td>Backup file</td><td>The zip file created with [Settings - Backup - Export backup] (records and settings, including recordings and photos). It is saved wherever you choose in the share sheet (Files, a cloud drive, a messenger, and so on), and that destination's own policy applies. Purchase status is not included</td><td>Where you choose</td></tr>
         <tr><td>Inquiry and report emails</td><td>The address and content of the email you send (a report may include the AI suggestion being reported)</td><td>Our mailbox (Google Gmail)</td></tr>
       </tbody>
     </table></div>
-    <p>If your device's own backup (iCloud Backup on iOS, Google backup on Android) is on, the app data and documents folder (including recordings and photos) may be backed up to your cloud account. That is a service between you and Apple or Google; we have no access to it.</p>
+    <p>If your device's own backup (iCloud Backup on iOS, Google backup and device-to-device transfer on Android) is on, the app data and documents folder (including recordings and photos) may be backed up to your cloud account or moved to a new device. On Android only the app database, settings, recordings and photos are included; exported backup files and caches are left out. That is a service between you and Apple or Google; we have no access to it.</p>
     <p>The Service <strong>is not directed to children under 14</strong>, and anyone found to be under 14 in the onboarding birth-year check cannot use it. We do not knowingly collect personal information from children under 14 (or under 13 where that is the applicable threshold).</p>
 
     <h2><span class="num">02</span>Purposes</h2>
     <ul>
       <li>To count how many times you said and wrote your goal sentence and to compute bridge progress, streaks and statistics on the device</li>
       <li>To play back the voice you recorded, to you, in previews and the sleep loop</li>
-      <li>To generate goal sentence suggestions with the optional AI coach (items sent are listed in §01)</li>
+      <li>To generate goal sentence suggestions with the optional AI coach and to enforce the free allowance per install, the daily cap and the service-wide cost cap (items sent and stored are listed in §01)</li>
       <li>To deliver local reminders scheduled on the device at the times you choose (at most three a day; no server)</li>
       <li>To show and measure ads for free users and to prevent fraudulent clicks (Google AdMob)</li>
       <li>To verify and restore Pro purchases (store billing)</li>
@@ -357,7 +361,8 @@
       <li><strong>Information stored on the device</strong> (goals, records, recordings, photos, settings): until you delete it in the app or uninstall the app. We hold no copy, so it cannot be recovered after uninstalling (backup files you exported are managed by you).</li>
       <li><strong>Microphone audio, handwriting strokes and motion sensor values</strong>: discarded as soon as counting is done; never stored.</li>
       <li><strong>AI coach request and response text</strong>: not stored on our server. The processor, Anthropic, states that under its commercial API terms it does not train models on customer inputs and outputs and automatically deletes inputs and outputs within 30 days of receipt (requests flagged for policy violations or subject to legal holds may be kept longer — per Anthropic's published policy as checked on 2026-10-19).</li>
-      <li><strong>Connection data</strong>: rate-limiting values are discarded when the limiting window (at most a few hours) ends; access logs Cloudflare records automatically are deleted after Cloudflare's log retention period (3 or 7 days depending on plan).</li>
+      <li><strong>AI coach usage record</strong> (install ID, usage counts and the like): kept while we provide the AI coach, because the lifetime free allowance has to be counted. Deleted without delay when you ask with your install number, and deleted entirely if the service ends. Service-wide daily totals (calls, tokens, cost) do not distinguish users. Operational logs are deleted after Cloudflare's log retention period (3 or 7 days depending on plan).</li>
+      <li><strong>Connection data</strong>: hashed rate-limiting values are deleted when the limiting window ends (at most 2 hours).</li>
       <li><strong>Advertising identifier and ad privacy consent</strong>: governed by Google's policies and your device settings.</li>
       <li><strong>Inquiry and report emails</strong>: deleted without delay once handled, except where law requires longer retention.</li>
     </ul>
@@ -370,8 +375,8 @@
       <tbody>
         <tr><td>Google LLC (AdMob)</td><td>Ad serving and measurement (third-party advertising — this is "sharing")</td><td>Advertising identifier, app interactions such as ad impressions and taps, IP address, diagnostic information. Free users only</td></tr>
         <tr><td>Google LLC (UMP)</td><td>Ad privacy consent management</td><td>Region determination and your consent choices. Free users only</td></tr>
-        <tr><td>Cloudflare, Inc.</td><td>AI coach relay server (processor)</td><td>Relays AI coach requests (goal sentence, category, app language); rate limiting and automatic access logs for the IP address. Text not stored</td></tr>
-        <tr><td>Anthropic, PBC</td><td>AI coach text generation (processor)</td><td>Goal sentence, category, app language. Not used for training; deleted within 30 days (§03)</td></tr>
+        <tr><td>Cloudflare, Inc.</td><td>AI coach relay server (processor)</td><td>Relays AI coach requests (goal sentence, category, app language; for a guest line, the guest type); stores the AI coach usage record (install ID, usage counts); rate limiting with hashed IP addresses; operational logs. Text not stored</td></tr>
+        <tr><td>Anthropic, PBC</td><td>AI coach text generation (processor)</td><td>Goal sentence, category, app language (for a guest line, the guest type). The install ID and IP address are not passed on. Not used for training; deleted within 30 days (§03)</td></tr>
         <tr><td>Apple Inc. / Google LLC (operating system speech recognition)</td><td>Online speech recognition (only if you turned on "Allow online recognition" and only when on-device recognition is unavailable)</td><td>Microphone audio, processed under the respective provider's policy; we never receive it</td></tr>
         <tr><td>Google LLC (ML Kit)</td><td>Distribution of the handwriting recognition model file</td><td>The model download request (ordinary connection data). Strokes and text are never sent</td></tr>
         <tr><td>Apple Inc. / Google LLC (App Store · Google Play)</td><td>In-app purchases, subscription management, purchase restoration</td><td>All payment data (we never receive payment methods)</td></tr>
@@ -389,14 +394,15 @@
       <li><strong>Advertising identifier</strong>: on iOS turn off tracking in [Settings - Privacy &amp; Security - Tracking]; on Android reset or delete the advertising ID in [Settings - Google - Ads]. In applicable regions, change your consent in [Settings - About - Ad privacy choices] in the app.</li>
       <li><strong>Reminders</strong>: turn them off in [Settings - Reminders] in the app or in device settings.</li>
       <li><strong>Parents and guardians</strong>: if you believe information of a child under 14 (or under 13 where applicable) has been collected, contact us below and we will delete it without delay after verification.</li>
-      <li><strong>Requests</strong>: send any other access or deletion request or question to <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>. Because our servers hold no records that identify you, deletion requests mainly apply to inquiry records in our mailbox.</li>
+      <li><strong>Deleting the AI coach server record</strong>: tap [Settings - AI coach - Install number] in the app to copy the number, and send it to <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>. We will delete the server record for that install ID (install details and usage counts) without delay and reply when it is done. Because we never link install IDs to names or contact details, we cannot find the record from a request without the number.</li>
+      <li><strong>Requests</strong>: send any other access or deletion request or question to <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>. Our servers hold no records, such as names or contact details, that directly identify you; other deletion requests mainly apply to inquiry records in our mailbox.</li>
     </ul>
 
     <h2><span class="num">06</span>Security Measures</h2>
     <ul>
       <li>Your records, recordings and photos are processed and stored only on your device, never on our servers.</li>
       <li>Microphone, handwriting and photo permissions are requested right before each feature is first used, with an explanation of the purpose; while the microphone is on, the screen shows a "Listening" label and a red dot.</li>
-      <li>All communication (AI coach, ads, model download) is encrypted with HTTPS, and the relay server does not store request text.</li>
+      <li>All communication (AI coach, ads, model download) is encrypted with HTTPS; the relay server stores neither request text nor raw IP addresses, and keeps the install key only as a hash.</li>
       <li>The Service contains no analytics or behavioral tracking SDK.</li>
       <li>Inquiry emails are read only by authorized staff.</li>
     </ul>
@@ -421,7 +427,7 @@
     </table></div>
 
     <h2><span class="num">09</span>Changes to This Policy</h2>
-    <p>This policy takes effect on 2026-10-19. If it changes because of legal or service changes, we will announce the change in the app or on this page at least 7 days before it takes effect (30 days for changes unfavorable to users). Changes to what the AI coach sends or to its processors are announced the same way.</p>
+    <p>This policy takes effect on {{발행일}}. If it changes because of legal or service changes, we will announce the change in the app or on this page at least 7 days before it takes effect (30 days for changes unfavorable to users). Changes to what the AI coach sends or to its processors are announced the same way.</p>
 
     <div class="footer">
       (c) 2026 Hasegi Inc.<span class="dot"> / </span><br class="mobile-br" />백일백번 (Hundredfold)
